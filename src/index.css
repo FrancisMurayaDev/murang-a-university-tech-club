@@ -1,0 +1,34 @@
+:root {
+  --color-red: #d1261c;
+  --ccolor-blue: #75d2f5;
+  --color-white: #ffffff;
+  --color-black: #401b18;
+  --color-black-light: #686d7a;
+  --color-green: #b2d27f;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--color-black);
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
