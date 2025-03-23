@@ -1,0 +1,16 @@
+.leadership-title {
+  color: var(--color-blue);
+  font-size: 5rem;
+}
+
+.leadership {
+  text-align: center;
+  padding: 2rem;
+}
+
+.leader-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}

@@ -1,0 +1,30 @@
+.leader-card {
+  background: var(--color-white);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leader-image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.leader-role {
+  font-weight: bold;
+  color: var(--color-red);
+}
+
+.leader-bio {
+  font-size: 0.9rem;
+  color: var(--color-black-light);
+}
+
+.leader-socials a {
+  margin: 0 0.5rem;
+  color: var(--color-blue);
+  font-size: 1.5rem;
+}

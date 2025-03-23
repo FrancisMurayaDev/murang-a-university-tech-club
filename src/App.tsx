@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import Home from "./Pages/Home/Home"
 import Events from "./Pages/Events"
-import Leadership from "./Pages/Leadership"
+import Leadership from "./Pages/Leadership/Leadership"
 import Tracks from "./Pages/Tracks"
 import Navbar from "./Components/Navbar/Navbar"
 
