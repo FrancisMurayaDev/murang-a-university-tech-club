@@ -1,13 +1,4 @@
-.hero {
-  background: url("https://source.unsplash.com/1600x900/?technology") center/cover;
-  color: white;
-  padding: 100px 20px;
+.hero-section {
   min-height: 100vh;
-}
-
-.hero-content {
-  background: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  padding: 20px;
-  border-radius: 10px;
+  border: 2px solid red;
 }
