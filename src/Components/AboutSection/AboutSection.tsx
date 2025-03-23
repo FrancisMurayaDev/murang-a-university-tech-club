@@ -1,7 +1,4 @@
 import "./AboutSection.css"
-
-import React from 'react'
-
 function AboutSection() {
   return (
     <div>
