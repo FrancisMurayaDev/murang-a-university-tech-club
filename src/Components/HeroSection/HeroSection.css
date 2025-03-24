@@ -30,7 +30,8 @@
   padding: 2rem;
 }
 
-.hero-mut, .text-mut {
+.hero-mut,
+.text-mut {
   color: var(--color-green);
 }
 

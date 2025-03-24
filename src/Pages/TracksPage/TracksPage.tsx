@@ -50,7 +50,6 @@ function TracksPage() {
         <p className="track-description">
           Join a specialized track and advance your skills with MUTC.
         </p>
-        
       </section>
 
       <div className="tracks-grid">
@@ -61,7 +60,6 @@ function TracksPage() {
             <p>{track.description}</p>
           </div>
         ))}
-        
       </div>
       <RegistrationForm />
     </div>

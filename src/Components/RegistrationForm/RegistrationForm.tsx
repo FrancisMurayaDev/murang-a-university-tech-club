@@ -10,7 +10,9 @@ const RegistrationForm = () => {
     track: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -67,17 +69,27 @@ const RegistrationForm = () => {
           required
           className="form-input"
         />
-        <select name="track" value={formData.track} onChange={handleChange} required className="form-input">
+        <select
+          name="track"
+          value={formData.track}
+          onChange={handleChange}
+          required
+          className="form-input"
+        >
           <option value="">Select a Track</option>
           <option value="Cyber Security">Cyber Security</option>
           <option value="UI/UX Design">UI/UX Design</option>
           <option value="Web Development">Web Development</option>
-          <option value="Mobile Apps Development">Mobile Apps Development</option>
+          <option value="Mobile Apps Development">
+            Mobile Apps Development
+          </option>
           <option value="Cloud Engineering">Cloud Engineering</option>
           <option value="Power Platform">Power Platform</option>
         </select>
 
-        <button type="submit" className="submit-button">Register</button>
+        <button type="submit" className="submit-button">
+          Register
+        </button>
       </form>
     </div>
   );
