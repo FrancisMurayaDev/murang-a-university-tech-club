@@ -6,6 +6,7 @@ import {
 } from "react-icons/ai";
 import { FaMobileAlt, FaPaintBrush } from "react-icons/fa";
 import { FaChartBar } from "react-icons/fa";
+import RegistrationForm from "../../Components/RegistrationForm/RegistrationForm";
 
 const tracks = [
   {
@@ -49,6 +50,7 @@ function TracksPage() {
         <p className="track-description">
           Join a specialized track and advance your skills with MUTC.
         </p>
+        
       </section>
 
       <div className="tracks-grid">
@@ -59,7 +61,9 @@ function TracksPage() {
             <p>{track.description}</p>
           </div>
         ))}
+        
       </div>
+      <RegistrationForm />
     </div>
   );
 }
