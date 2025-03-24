@@ -1,15 +1,21 @@
 import "./HeroSection.css";
+import HeroVideo from "../../../public/hero-background.mp4"
 
 function HeroSection() {
   return (
-    <div>
-      <section className="hero-section">
-        <div className="hero-content">
-          <h2 className="hero-mut">Welcome to MUTECH</h2>
-          <p className="text-mut">Empowering Students in Technology and Innovation</p>
-        </div>
-      </section>
-    </div>
+    <section className="hero-section">
+  
+      <video autoPlay loop muted playsInline className="background-video">
+        <source src={HeroVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      
+      <div className="hero-content">
+        <h2 className="hero-mut">Welcome to MUTECH</h2>
+        <p className="text-mut">Empowering Students in Technology and Innovation</p>
+      </div>
+    </section>
   );
 }
 
