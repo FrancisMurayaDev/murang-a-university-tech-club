@@ -5,8 +5,8 @@ function HeroSection() {
     <div>
       <section className="hero-section">
         <div className="hero-content">
-          <h2>Welcome to MUTECH</h2>
-          <p>Empowering Students in Technology and Innovation</p>
+          <h2 className="hero-mut">Welcome to MUTECH</h2>
+          <p className="text-mut">Empowering Students in Technology and Innovation</p>
         </div>
       </section>
     </div>
