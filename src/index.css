@@ -5,7 +5,6 @@
   --color-black: #401b18;
   --color-black-light: #686d7a;
   --color-green: #b2d27f;
-  
 }
 
 * {
@@ -29,6 +28,7 @@ a {
   text-decoration: none;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }

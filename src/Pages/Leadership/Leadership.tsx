@@ -1,6 +1,6 @@
 import LeaderCard from "../../Components/LeaderCard/LeaderCard";
 import "./Leadership.css";
-import leader1 from "../../assets/leader1.jpg"
+import leader1 from "../../assets/leader1.jpg";
 
 const leaders = [
   {

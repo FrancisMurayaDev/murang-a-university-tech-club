@@ -22,10 +22,26 @@ const LeaderCard = ({ name, role, bio, image, socials }: LeaderProps) => {
       <p className="leader-role">{role}</p>
       <p className="leader-bio">{bio}</p>
       <div className="leader-socials">
-        {socials.linkedin && <a href={socials.linkedin}><FaLinkedin /></a>}
-        {socials.twitter && <a href={socials.twitter}><FaTwitter /></a>}
-        {socials.facebook && <a href={socials.facebook}><FaFacebook /></a>}
-        {socials.instagram && <a href={socials.instagram}><FaInstagram /></a>}
+        {socials.linkedin && (
+          <a href={socials.linkedin}>
+            <FaLinkedin />
+          </a>
+        )}
+        {socials.twitter && (
+          <a href={socials.twitter}>
+            <FaTwitter />
+          </a>
+        )}
+        {socials.facebook && (
+          <a href={socials.facebook}>
+            <FaFacebook />
+          </a>
+        )}
+        {socials.instagram && (
+          <a href={socials.instagram}>
+            <FaInstagram />
+          </a>
+        )}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import "./Navbar.css"
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -20,7 +20,7 @@ function Navbar() {
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

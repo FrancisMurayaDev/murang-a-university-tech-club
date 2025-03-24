@@ -1,4 +1,4 @@
-import "./HeroSection.css"
+import "./HeroSection.css";
 
 function HeroSection() {
   return (
@@ -10,8 +10,7 @@ function HeroSection() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default HeroSection
-
+export default HeroSection;
