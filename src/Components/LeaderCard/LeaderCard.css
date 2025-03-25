@@ -4,27 +4,39 @@
   padding: 2rem;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50rem;
+  border: 2px solid red;
+}
+
+.leader-card:hover {
+  background-color: var(--color-green);
+  
 }
 
 .leader-image {
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 1rem;
 }
 
 .leader-role {
   font-weight: bold;
   color: var(--color-red);
+  /* border: 2px solid red; */
+  font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .leader-bio {
-  font-size: 0.9rem;
+  font-size: 1.6rem;
+  margin: 1rem 0;
   color: var(--color-black-light);
 }
 
 .leader-socials a {
   margin: 0 0.5rem;
   color: var(--color-blue);
-  font-size: 1.5rem;
+  font-size: 2rem;
 }

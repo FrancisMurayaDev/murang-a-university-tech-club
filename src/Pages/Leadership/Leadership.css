@@ -1,9 +1,9 @@
-.leadership-title {
+/* .leadership-title {
   color: var(--color-blue);
   font-size: 5rem;
-}
+} */
 
-.leadership {
+/* .leadership {
   text-align: center;
   padding: 2rem;
 }
@@ -13,4 +13,27 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   padding: 2rem;
+} */
+
+.leadership {
+  /* border: 2px solid red; */
+  min-height: 100vh;
+  margin-top: 2rem;
+}
+
+.leadership-title {
+  /* border: 2px solid orange; */
+  color: var(--color-blue);
+  font-size: 5rem; 
+  text-align: center;
+
+}
+
+.leader-grid {
+  /* border: 4px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  align-items: center;
+  justify-content: center;
 }
