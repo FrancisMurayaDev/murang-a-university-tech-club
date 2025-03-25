@@ -1,15 +1,29 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem 2rem;
   background: var(--color-white);
   color: var(--color-black);
+  background-color: var(--color-green);
+  padding-top: 2rem;
+}
+
+.nav-title {
+  padding-top: 1rem;
+  letter-spacing: 1.5rem;
+  font-weight: 900;
+}
+
+.nav-title span {
+color: var(--color-red);
+font-weight: bolder;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 1.5rem;
 }
 
