@@ -56,7 +56,7 @@
 
 .book-button {
   background: var(--color-blue);
-  color: white;
+  color: var(--color-white);
   padding: 0.8rem 2rem;
   border: none;
   border-radius: 5px;
