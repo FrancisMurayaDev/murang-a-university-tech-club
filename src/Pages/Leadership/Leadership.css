@@ -24,9 +24,8 @@
 .leadership-title {
   /* border: 2px solid orange; */
   color: var(--color-blue);
-  font-size: 5rem; 
+  font-size: 5rem;
   text-align: center;
-
 }
 
 .leader-grid {

@@ -14,22 +14,26 @@ const testimonials = [
   {
     image: Testimonial2,
     name: "Smith Duke",
-    detail: "Joining MUTC has been a game-changer for my career. The mentorship and resources are top-notch!",
+    detail:
+      "Joining MUTC has been a game-changer for my career. The mentorship and resources are top-notch!",
   },
   {
     image: Testimonial3,
     name: "Pascal Seth",
-    detail: "The Tech Club provided me with hands-on projects that improved my coding skills significantly!",
+    detail:
+      "The Tech Club provided me with hands-on projects that improved my coding skills significantly!",
   },
   {
     image: Testimonial4,
     name: "Jane Elizabeth",
-    detail: "I met amazing developers and learned so much about teamwork and real-world development!",
+    detail:
+      "I met amazing developers and learned so much about teamwork and real-world development!",
   },
   {
     image: Testimonial5,
     name: "Rebecca Sarah",
-    detail: "MUTC's community is supportive and inspiring. I’ve grown both technically and professionally!",
+    detail:
+      "MUTC's community is supportive and inspiring. I’ve grown both technically and professionally!",
   },
 ];
 

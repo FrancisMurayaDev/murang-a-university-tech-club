@@ -16,8 +16,8 @@
 }
 
 .nav-title span {
-color: var(--color-red);
-font-weight: bolder;
+  color: var(--color-red);
+  font-weight: bolder;
 }
 
 .navbar ul {

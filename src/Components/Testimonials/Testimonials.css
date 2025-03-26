@@ -6,7 +6,7 @@
 
 .testimonial-title {
   font-size: 5rem;
-  color:var(--color-red);
+  color: var(--color-red);
   font-weight: bold;
 }
 
@@ -25,12 +25,14 @@
 }
 
 .testimonial-card {
-  background:var(--color-white);
+  background: var(--color-white);
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
 }
 
 .testimonial-card:hover {

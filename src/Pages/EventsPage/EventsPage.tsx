@@ -57,11 +57,19 @@ const EventsPage = () => {
               <span className="event-day">{event.day}</span>
             </div>
             <div className="event-details">
-              <p><strong>Time:</strong> {event.time}</p>
-              <p><strong>Location:</strong> {event.location}</p>
-              <p><strong>Lead:</strong> {event.lead}</p>
+              <p>
+                <strong>Time:</strong> {event.time}
+              </p>
+              <p>
+                <strong>Location:</strong> {event.location}
+              </p>
+              <p>
+                <strong>Lead:</strong> {event.lead}
+              </p>
             </div>
-            <a href="#" className="read-more">Read More</a>
+            <a href="#" className="read-more">
+              Read More
+            </a>
           </div>
         ))}
       </div>

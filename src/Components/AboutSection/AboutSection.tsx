@@ -1,6 +1,5 @@
 import "./AboutSection.css";
 
-
 function AboutSection() {
   return (
     <section className="about">
@@ -32,4 +31,3 @@ function AboutSection() {
 }
 
 export default AboutSection;
-

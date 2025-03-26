@@ -4,7 +4,10 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="nav-title"> <span>MUT</span>ECH</h2>
+      <h2 className="nav-title">
+        {" "}
+        <span>MUT</span>ECH
+      </h2>
       <ul>
         <li>
           <Link to="/">Home</Link>
