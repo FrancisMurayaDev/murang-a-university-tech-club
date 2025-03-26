@@ -1,4 +1,83 @@
+
+
 .about {
+  position: relative;
   min-height: 100vh;
-  border: 2px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background: url("../../assets/about.bg.jpg") no-repeat center center/cover;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.about-content {
+  max-width: 800px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+}
+
+.about h2 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: var(--color-green);
+}
+
+.about p {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.about h3 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  color: var(--color-blue);
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.about ul li {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about ul li::before {
+  content: "✔️";
+  color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding: 1.5rem;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .about p,
+  .about ul li {
+    font-size: 1rem;
+  }
 }
