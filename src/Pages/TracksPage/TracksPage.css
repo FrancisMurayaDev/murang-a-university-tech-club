@@ -16,7 +16,7 @@
 
 .hero {
   background: linear-gradient(120deg, var(--color-red), var(--color-green));
-  color: white;
+  color: var(--color-white);
   padding: 6rem 2rem;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .track-card {
-  background: white;
+  background: var(--color-white);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -42,4 +42,11 @@
 .icon {
   font-size: 3rem;
   color: var(--color-blue);
+}
+
+.track-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }

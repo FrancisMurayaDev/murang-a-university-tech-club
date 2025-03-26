@@ -8,6 +8,7 @@ import { FaMobileAlt, FaPaintBrush } from "react-icons/fa";
 import { FaChartBar } from "react-icons/fa";
 import RegistrationForm from "../../Components/RegistrationForm/RegistrationForm";
 
+
 const tracks = [
   {
     title: "Cyber Security",
@@ -56,11 +57,14 @@ function TracksPage() {
         {tracks.map((track, index) => (
           <div className="track-card" key={index}>
             <div className="icon">{track.icon}</div>
+            <div className="track-detail">
             <h3>{track.title}</h3>
             <p>{track.description}</p>
+            </div>
           </div>
         ))}
       </div>
+      
       <RegistrationForm />
     </div>
   );
