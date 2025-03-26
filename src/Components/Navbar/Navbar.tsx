@@ -1,15 +1,20 @@
-import { Link } from "react-router-dom";
-import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
 import { CiFacebook, CiTwitter, CiLinkedin } from "react-icons/ci";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location.pathname]);
 
   return (
     <div className="nav-container">
@@ -20,31 +25,23 @@ function Navbar() {
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FiX /> : <FiMenu />}
         </div>
-        <ul className={isOpen ? "nav-links active" : "nav-links"}>
+        <ul className={`nav-links ${isOpen ? "active" : ""}`}>
           <li>
-            <Link to="/" onClick={toggleMenu}>
-              Home
-            </Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/leadership" onClick={toggleMenu}>
-              Leadership
-            </Link>
+            <Link to="/leadership">Leadership</Link>
           </li>
           <li>
-            <Link to="/tracks" onClick={toggleMenu}>
-              Tracks
-            </Link>
+            <Link to="/tracks">Tracks</Link>
           </li>
           <li>
-            <Link to="/events" onClick={toggleMenu}>
-              Events
-            </Link>
+            <Link to="/events">Events</Link>
           </li>
         </ul>
       </nav>
       <div className="bottom-div">
-        <h3 className="bottom-head"> Murang'a University Tech Club</h3>
+        <h3 className="bottom-head">Murang'a University Tech Club</h3>
         <ul className="socials">
           <li>
             <a className="social" href="#">

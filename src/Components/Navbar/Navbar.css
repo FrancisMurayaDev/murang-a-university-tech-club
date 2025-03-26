@@ -25,6 +25,7 @@
   cursor: pointer;
 }
 
+/* Desktop Nav */
 .nav-links {
   list-style: none;
   display: flex;
@@ -43,8 +44,7 @@
   color: var(--color-red);
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 48em) {
   .menu-icon {
     display: block;
   }
@@ -59,10 +59,17 @@
     text-align: center;
     padding: 1rem 0;
     display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
   }
 
   .nav-links.active {
     display: flex;
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .nav-links li {
@@ -77,8 +84,6 @@
   justify-content: space-between;
   padding-top: 1rem;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.42);
-  -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.42);
 }
 
 .bottom-head {
