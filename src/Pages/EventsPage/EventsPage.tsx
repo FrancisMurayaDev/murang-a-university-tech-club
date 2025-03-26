@@ -45,35 +45,24 @@ const events = [
   },
 ];
 
-type EventProps = {
-  track: string;
-  day: string;
-  time: string;
-  location: string;
-  lead: string;
-  // backgroundImage: string;
-};
-
-const EventCard = ({ track, day, time, location, lead }: EventProps) => {
-  return (
-    <div className="event-card">
-      <h3 className="event-track">{track}</h3>
-      <p className="event-day">Day: {day}</p>
-      <p className="event-time">Time: {time}</p>
-      <p className="event-location">Location: {location}</p>
-      <p className="event-lead">Lead: {lead}</p>
-      
-    </div>
-  );
-};
-
 const EventsPage = () => {
   return (
     <div className="events-container">
       <h2 className="events-title">Upcoming Events</h2>
-      <div className="event-card-container">
+      <div className="events-list">
         {events.map((event, index) => (
-          <EventCard key={index} {...event} />
+          <div className="event-item" key={index}>
+            <div className="event-header">
+              <h3 className="event-track">{event.track}</h3>
+              <span className="event-day">{event.day}</span>
+            </div>
+            <div className="event-details">
+              <p><strong>Time:</strong> {event.time}</p>
+              <p><strong>Location:</strong> {event.location}</p>
+              <p><strong>Lead:</strong> {event.lead}</p>
+            </div>
+            <a href="#" className="read-more">Read More</a>
+          </div>
         ))}
       </div>
     </div>

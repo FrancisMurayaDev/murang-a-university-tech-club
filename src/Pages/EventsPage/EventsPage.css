@@ -1,54 +1,77 @@
-.event-card-container {
-  /* border: 2px solid red;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-} */
-
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 2rem;
-justify-content: center;
-align-items: center;
-margin: 0 3rem;
+.events-container {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(120deg, #414e41, #f3d0d0);
 }
-.event-card {
+
+.events-title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--color-green);
+  margin-bottom: 2rem;
+}
+
+.events-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin: 4rem 1rem;
-  max-width: 40rem;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.event-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  text-align: left;
   
 }
 
-.event-card:hover {
-  transform: scale(1.05);
+.event-item:hover {
+  transform: translateY(-5px);
 }
 
-.event-card h3 {
-  color: #2c3e50;
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  
+}
+
+.event-track {
+  font-size: 3rem;
+  color: var(--color-black);
+  font-weight: bold;
+}
+
+.event-day {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  color: var(--color-black-light);
+  font-weight: 600;
 }
 
-.event-card p {
+.event-details p {
+  font-size: 1.3rem;
+  color: var(--color-red);
+  margin: 0.3rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
   font-size: 1rem;
-  color: #555;
-  margin: 5px 0;
+  color: var(color-blue);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-.event-card strong {
-  color: #000;
-}
-
-@media (max-width: 768px) {
-  .event-card {
-    max-width: 100%;
-    padding: 15px;
-  }
+.read-more:hover {
+  color: #0056b3;
 }
