@@ -25,12 +25,21 @@
   cursor: pointer;
 }
 
-/* Desktop Nav */
 .nav-links {
-  list-style: none;
+  /* list-style: none;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.5rem; */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: var(--color-green);
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 0;
+  display: none;
+  z-index: 1000;
 }
 
 .nav-links a {
