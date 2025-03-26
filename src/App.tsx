@@ -4,6 +4,7 @@ import Events from "./Pages/EventsPage/EventsPage";
 import Leadership from "./Pages/Leadership/Leadership";
 import Tracks from "./Pages/TracksPage/TracksPage";
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/tracks" element={<Tracks />} />
         <Route path="/events" element={<Events />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
