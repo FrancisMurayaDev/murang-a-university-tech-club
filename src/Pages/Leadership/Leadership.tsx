@@ -1,17 +1,17 @@
 import LeaderCard from "../../Components/LeaderCard/LeaderCard";
 import "./Leadership.css";
 
-import Ndia from "../../assets/ndia.jpg"
-import Victory from "../../assets/victory.jpg"
-import Allan from "../../assets/allan.jpg"
-import Bridget from "../../assets/bridget.jpg"
-import Ruth from "../../assets/ruth.jpg"
-import Webster from "../../assets/webster.jpg"
-import Manase from "../../assets/manase.jpg"
-import Carol from "../../assets/carol.jpg"
-import Stan from "../../assets/stan.jpg"
-import Paul from "../../assets/paul.jpg"
-import Evy from "../../assets/evy.jpg"
+import Ndia from "../../assets/ndia.jpg";
+import Victory from "../../assets/victory.jpg";
+import Allan from "../../assets/allan.jpg";
+import Bridget from "../../assets/bridget.jpg";
+import Ruth from "../../assets/ruth.jpg";
+import Webster from "../../assets/webster.jpg";
+import Manase from "../../assets/manase.jpg";
+import Carol from "../../assets/carol.jpg";
+import Stan from "../../assets/stan.jpg";
+import Paul from "../../assets/paul.jpg";
+import Evy from "../../assets/evy.jpg";
 
 const leaders = [
   {
