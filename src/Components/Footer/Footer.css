@@ -27,7 +27,6 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--color-red);
-  
 }
 
 .footer-section ul {
@@ -39,7 +38,6 @@
 
 .footer-section ul li {
   margin: 0.5rem 0;
-  
 }
 
 .footer-section a {
@@ -57,7 +55,7 @@
 .social-icons a {
   display: inline-block;
   margin: 0 1rem;
-  color:blue;
+  color: blue;
 }
 
 .footer-bottom {
@@ -72,7 +70,8 @@
   color: var(--color-red);
 }
 
-.foot-contact, .foot-detail {
+.foot-contact,
+.foot-detail {
   color: var(--color-black-light);
 }
 

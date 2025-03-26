@@ -20,16 +20,24 @@ function Navbar() {
       </div>
       <ul className={isOpen ? "nav-links active" : "nav-links"}>
         <li>
-          <Link to="/" onClick={toggleMenu}>Home</Link>
+          <Link to="/" onClick={toggleMenu}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/leadership" onClick={toggleMenu}>Leadership</Link>
+          <Link to="/leadership" onClick={toggleMenu}>
+            Leadership
+          </Link>
         </li>
         <li>
-          <Link to="/tracks" onClick={toggleMenu}>Tracks</Link>
+          <Link to="/tracks" onClick={toggleMenu}>
+            Tracks
+          </Link>
         </li>
         <li>
-          <Link to="/events" onClick={toggleMenu}>Events</Link>
+          <Link to="/events" onClick={toggleMenu}>
+            Events
+          </Link>
         </li>
       </ul>
     </nav>
