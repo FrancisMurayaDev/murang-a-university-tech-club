@@ -1,44 +1,94 @@
-.testimonial-title {
+.testimonials {
   text-align: center;
+  padding: 4rem 2rem;
+  background: var(--color-black-white);
+}
+
+.testimonial-title {
   font-size: 5rem;
-  margin: 2rem 0;
-  color: var(--color-blue);
+  color:var(--color-red);
+  font-weight: bold;
 }
 
-.testimonial {
-  border: 1px solid var(--color-red);
-  width: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
+.testimonial-subtitle {
+  font-size: 1.8rem;
+  color: var(--color-black-light);
+  margin-bottom: 2rem;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 2rem;
   justify-content: center;
-  gap: 1rem;
-  border-radius: 10rem;
-  /* background-color: var(--color-blue); */
-  margin-bottom: 1rem;
-}
-
-.upper-testimonial {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.testimonial-name {
-  font-size: 2.3rem;
-  font-weight: 700;
   padding: 2rem 0;
 }
 
+.testimonial-card {
+  background:var(--color-white);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
 .testimonial-image {
-  width: 15rem;
-  border: 1px solid var(--color-green);
-  border-radius: 20rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-red);
 }
 
 .testimonial-detail {
-  margin-left: 1rem;
-  color: var(--color-black-light);
+  font-size: 1rem;
+  color: var(--color-black);
+  margin-top: 0.5rem;
+}
+
+.why-join {
+  margin-top: 4rem;
+  background: linear-gradient(to right, #9bbcdd, #005bb5);
+  color: var(--color-white);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.why-join h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.why-join p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .testimonial-title {
+    font-size: 2rem;
+  }
+
+  .testimonial-subtitle {
+    font-size: 1rem;
+  }
+
+  .why-join h2 {
+    font-size: 1.8rem;
+  }
+
+  .why-join p {
+    font-size: 1rem;
+  }
 }
