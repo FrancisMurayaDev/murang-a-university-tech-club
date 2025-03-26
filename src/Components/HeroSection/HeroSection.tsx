@@ -10,7 +10,8 @@ function HeroSection() {
       </video>
 
       <div className="hero-content">
-        <h2 className="hero-mut">Welcome to MUTECH</h2>
+        <h2 className="hero-mut">Welcome to MUTC</h2>
+        <h3 className="hero-sub">Murang'a University Tech Club</h3>
         <p className="text-mut">
           Empowering Students in Technology and Innovation
         </p>

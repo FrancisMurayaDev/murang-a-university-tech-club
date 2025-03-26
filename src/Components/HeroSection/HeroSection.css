@@ -30,6 +30,11 @@
   padding: 2rem;
 }
 
+.hero-sub {
+  color: var(--color-blue);
+  font-size: 3rem;
+}
+
 .hero-mut,
 .text-mut {
   color: var(--color-green);
