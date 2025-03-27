@@ -26,19 +26,10 @@
 }
 
 .nav-links {
-  /* list-style: none;
-  display: flex;
+  list-style: none;
+  display: flex; /* Ensure it's visible on wider screens */
   align-items: center;
-  gap: 1.5rem; */
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background: var(--color-green);
-  flex-direction: column;
-  text-align: center;
-  padding: 1rem 0;
-  display: none;
+  gap: 1.5rem;
   z-index: 1000;
 }
 
